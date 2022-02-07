@@ -1,4 +1,4 @@
-### Tung Nguyen's Homepage
+# Tung Nguyen's Homepage
 
 This is where I showcase my works.<br />
 
