@@ -122,7 +122,7 @@ const Home = () => (
           </NextLink>
         </Box>
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1rfwtOFY50WBihefo83jHxjvacVbQOAhI/view?usp=sharing">
+          <NextLink href="https://drive.google.com/file/d/1_upPCAh8nMOTivnvkzpkDDVFndTfkQir/view?usp=sharing">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My résumé
             </Button>
