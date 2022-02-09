@@ -10,7 +10,7 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout>
+  <Layout title="SAC">
     <Container>
       <Title>
         Soft Actor Critic Pytorch implementation

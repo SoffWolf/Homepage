@@ -11,7 +11,7 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout>
+  <Layout title="Old Site">
     <Container>
       <Title>
         My old website <Badge>Feb 2021</Badge>

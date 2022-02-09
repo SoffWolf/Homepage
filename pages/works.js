@@ -12,7 +12,7 @@ import thumbStyly from '../public/images/works/sisweb_eyecatch.jpg'
 import thumbVsa from '../public/images/works/vsa_eyecatch.jpg'
 
 const Works = () => (
-  <Layout title="">
+  <Layout title="Projects">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Notable projects

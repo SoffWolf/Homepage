@@ -19,7 +19,7 @@ import Section from '../components/section'
 import { IoMailSharp, IoLogoInstagram, IoLogoGithub, IoPaperPlaneSharp} from 'react-icons/io5'
 
 const Home = () => (
-  <Layout>
+  <Layout title="Home">
     <Container>
 	<Box
         borderRadius="lg"
