@@ -50,7 +50,7 @@ const Home = () => (
             maxWidth="100px"
             display="inline-block"
             borderRadius="full"
-            src="/images/tung.png"
+            src="/images/tung.jpg"
             alt="Profile image"
           />
         </Box>
