@@ -16,8 +16,8 @@ const Work = () => (
         Soft Actor Critic Pytorch implementation
       </Title>
       <P>
-        We digged deep into this reinforcement learning paper and write the implementation for it in PyTorch.
-		We also implement the different state-of-the-art reinforcement learning algorithms before this, TD3 and PPO.
+        We dug deep into this reinforcement learning paper and write the implementation for it in PyTorch.
+		We also implemented the different state-of-the-art reinforcement learning algorithms before this, TD3 and PPO.
       </P>
 
       <List ml={4} my={4}>

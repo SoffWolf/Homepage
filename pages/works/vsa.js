@@ -17,7 +17,7 @@ const Work = () => (
         Vietnamese Students at Aalto Community <Badge>Summer 2020 -</Badge>
       </Title>
       <P>
-        I created this community on summer 2020. The community grows strong after 2 years in operation with more than 300 members (including alumni). 
+        I created this community in summer 2020. The community grows strong after 2 years in operation with more than 300 members (including alumni). 
 		This project is my attempt to learn skills outside the technical world.
       </P>
 

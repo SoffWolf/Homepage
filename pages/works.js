@@ -21,7 +21,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="quickread" title="QuickRead" thumbnail={thumbInkdrop}>
-            A web-extension that auto-summaries long text into a few sentences.
+            A web extension that auto-summaries long text into a few sentences.
           </WorkGridItem>
         </Section>
 

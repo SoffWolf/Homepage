@@ -18,7 +18,7 @@ const Work = () => (
       </Title>
       <P>
         I made this website as a birthday present for my sister.
-		We will fill into it when she starts looking for a job.
+		We will fill it when she starts looking for a job.
       </P>
 
       <List ml={4} my={4}>

@@ -18,7 +18,7 @@ const Work = () => (
       </Title>
       <P>
         Open Source scale model of Data Centers using commodity compute like Raspberry Pis.
-		This is more of a research project. My role was to create a friendly UI for the end user
+		This is more of a research project. My role was to create a friendly UI for the end-user
 		and benchmark the various aspect of Raspberry Pi 3 and 4.
       </P>
       <List ml={4} my={4}>

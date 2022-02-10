@@ -17,7 +17,7 @@ const Work = () => (
         My old website <Badge>Feb 2021</Badge>
       </Title>
       <P>
-        I created this website in Feb, 2021. It&apos;s my first complete website.
+        I created this website in February 2021. It&apos;s my first complete website.
       </P>
 
       <List ml={4} my={4}>

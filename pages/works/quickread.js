@@ -11,11 +11,11 @@ const Work = () => (
         QuickRead <Badge>Sep 2021-</Badge>
       </Title>
       <P>
-        A web extension that can auto-summaries long text into a few sentences. The project have two main parts.
+        A web extension that can auto-summaries long text into a few sentences. The project has two main parts.
 		Part 1 is to build a language model on the summarization task. We will enhance the summarization 
 	capability of
-		the Google&apos;s Pegasus language model by fine tune it with PPO algorithm on the human-feedback data.
-		Part 2 is to launch the model on the internet with a user-friendly UI. The project are currently at
+		Google&apos;s Pegasus language model by fine-tuning it with the PPO algorithm on the human-feedback data.
+		Part 2 is to launch the model on the internet with a user-friendly UI. The project is currently at
 		the end of part 1. We intend to launch the app at the end of May this year.
       </P>
       <List ml={4} my={4}>

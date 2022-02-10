@@ -61,8 +61,8 @@ const Home = () => (
           Brief me
         </Heading>
         <Paragraph>
-		  I am Tung, a final year bachelor student at Aalto University. 
-		  My degree is Digital Systems and Design. I focus my study largely 
+		  I am Tung, a final year bachelor&apos;s student at Aalto University. 
+		  My degree is in Digital Systems and Design. I focus my study largely 
 		  on Machine Learning and Web technologies. I am actively looking for a job right now!
         </Paragraph>
       </Section>
@@ -77,15 +77,15 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
-		  Went to Aalto pursuing Bachelor&apos;s Degree in Digital System and Design.
+		  Went to Aalto pursuing Bachelor&apos;s Degree in Digital Systems and Design.
         </BioSection>
         <BioSection>
           <BioYear>Present</BioYear>
-          I basically finished my bachelor degree, attempting to finish 1 year of my Master&apos;s Degree this spring.
+          I basically finished my bachelor&apos;s degree, attempting to finish 1 year of my Master&apos;s Degree this spring.
         </BioSection>
         <BioSection>
           <BioYear>Near future</BioYear>
-          Finish my master study at Aalto.
+          Finish my master&apos;s study at Aalto.
         </BioSection>
       </Section>
 
@@ -122,7 +122,7 @@ const Home = () => (
           </NextLink>
         </Box>
         <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1_upPCAh8nMOTivnvkzpkDDVFndTfkQir/view?usp=sharing">
+          <NextLink href="https://drive.google.com/file/d/1ph1t0Kr0D5brmQlzLZqEt1cWHtRCeQnG/view?usp=sharing">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My résumé
             </Button>

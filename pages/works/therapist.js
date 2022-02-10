@@ -17,9 +17,9 @@ const Work = () => (
         Therapist chatbot<Badge>2021</Badge>
       </Title>
       <P>
-        We integrate the Facebook&apos;s sentimental chatbot with our own implementation of the depression,
-		suicidal, self-harm handling module to take over when the user&apos;s texts have those tendency.
-		The latter module was build using Rasa. We hosted the model on Google Cloud to serve the users but have to 
+        We integrate Facebook&apos;s sentimental chatbot with our own implementation of the depression,
+		suicidal, self-harm handling module to take over when the user&apos;s texts have those tendencies.
+		The latter module was built using Rasa. We hosted the model on Google Cloud to serve the users but have to 
 		take it down due to the bills.
       </P>
       <List ml={4} my={4}>
