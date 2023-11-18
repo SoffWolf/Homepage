@@ -16,26 +16,30 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoMailSharp, IoLogoInstagram, IoLogoGithub, IoPaperPlaneSharp} from 'react-icons/io5'
+import {
+  IoMailSharp,
+  IoLogoGithub,
+  IoPaperPlaneSharp
+} from 'react-icons/io5'
 
 const Home = () => (
   <Layout title="Home">
     <Container>
-	<Box
+      <Box
         borderRadius="lg"
-        mb={6}
+        mb={10}
         p={3}
         textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+        // bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        You can drag to move and scroll to zoom!
+        {/* You can drag to move and scroll to zoom! */}
       </Box>
       <Box display={{ md: 'flex' }}>
-        <Box flexGrow={1}>
+        <Box mb={10} flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Tung Nguyen
           </Heading>
-          <p>Aalto&apos;s Undergraduate </p>
+          <p>Software Engineer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -43,7 +47,7 @@ const Home = () => (
           ml={{ md: 6 }}
           textAlign="center"
         >
-          <Image
+          {/* <Image
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
@@ -52,86 +56,98 @@ const Home = () => (
             borderRadius="full"
             src="/images/tung.jpg"
             alt="Profile image"
-          />
+          /> */}
         </Box>
       </Box>
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Brief me
+          WHOAMI
         </Heading>
         <Paragraph>
-		  I am Tung, a final year bachelor&apos;s student at Aalto University. 
-		  My degree is in Digital Systems and Design. I focus my study largely 
-		  on Machine Learning and Web technologies. I am actively looking for a job right now!
+          I am a young programmer with 2 years of experience in the software
+          industry. I focus my work largely on Web Technology and Machine
+          Learning. Currently doing my Master &apos;s degree at Aalto
+          University.
         </Paragraph>
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={0.5}>
         <Heading as="h3" variant="section-title">
-          Bio
+          Timeline
         </Heading>
+
         <BioSection>
           <BioYear>2000</BioYear>
           Born in Da Nang (Đà Nẵng), Vietnam.
         </BioSection>
+
         <BioSection>
           <BioYear>2019</BioYear>
-		  Went to Aalto pursuing Bachelor&apos;s Degree in Digital Systems and Design.
+          Went to Aalto pursuing Bachelor&apos;s Programme in Digital Systems
+          and Design
         </BioSection>
+
         <BioSection>
-          <BioYear>Present</BioYear>
-          I basically finished my bachelor&apos;s degree, attempting to finish 1 year of my Master&apos;s Degree this spring.
+          <BioYear>2022</BioYear>
+          Start working at Mirasys.
+          <br />
+          Finish my Bachelor&apos;s Degree.
+          <br />
+          Start my Master&apos;s Programme in Control, Robotics and Autonomous
+          Systems
         </BioSection>
+
         <BioSection>
-          <BioYear>Near future</BioYear>
-          Finish my master&apos;s study at Aalto.
+          <BioYear>2024</BioYear>
+          Finish my Master&apos;s study at Aalto.
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
-        <Heading as="h3" variant="section-title">
-          Technical stacks:
+      <Section delay={1}>
+        <Heading as="h3" variant="section-title" mb={4}>
+          Technical Proficiencies:
         </Heading>
-		I don&apos;t really know how to order these so I will just put all of them down here.
-		The tech I spent more time with will appear first on the lists.
-		<BioSection>
-          <BioYear>Machine Learning</BioYear>
-			PyTorch, HuggingFace, numpy, pandas, matplotlib, Rasa, openCV
+        Here are the core technologies I am working with at the moment:
+        <BioSection mt={2}>
+          <BioYear>Backend</BioYear>
+          NodeJS, NestJS, Relational Database, GraphQL
         </BioSection>
-
         <BioSection>
-          <BioYear>Web Development</BioYear>
-			ReactJS, TailwindCSS, NodeJS, ExpressJS, relational databases, hands-on PostgreSQL and MongoDB
+          <BioYear>Frontend</BioYear>
+          ReactJS, TypeScript, TailwindCSS, Apollo
         </BioSection>
-
-		<BioSection>
-          <BioYear>Programming language</BioYear>
-			Python, JavaScript, C/C++, Bash
+        <BioSection>
+          <BioYear>DevOps</BioYear>
+          Docker, Kubernetes, CI/CD, Cloud Services
         </BioSection>
-
-          <BioYear>Others</BioYear>
-		    Linux, git, vim, tmux, Latex, Docker
+        <BioSection>
+          <BioYear>Machine Learning</BioYear>
+          PyTorch, NumPy, OpenCV, HuggingFace <br/>
+          Supervised and Reinforcement methods.
+        </BioSection>
+        <BioYear>Others</BioYear>
+        Microservices Architecture, Agile Practices, Linux, Git, Vim 
       </Section>
 
-        <Box align="center" my={4}>
-          <NextLink href="/works">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My projects
-            </Button>
-          </NextLink>
-        </Box>
-        <Box align="center" my={4}>
-          <NextLink href="https://drive.google.com/file/d/1ph1t0Kr0D5brmQlzLZqEt1cWHtRCeQnG/view?usp=sharing">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My résumé
-            </Button>
-          </NextLink>
-        </Box>
+      <Box align="center" my={4}>
+        <NextLink href="/works">
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            My notable projects
+          </Button>
+        </NextLink>
+      </Box>
+      <Box align="center" my={4}>
+        <NextLink href="https://drive.google.com/file/d/1ph1t0Kr0D5brmQlzLZqEt1cWHtRCeQnG/view?usp=sharing">
+          <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            My résumé
+          </Button>
+        </NextLink>
+      </Box>
 
-      <Section delay={0.3}>
+      <Section delay={1.5}>
         <Heading as="h3" variant="section-title">
-          For more info 
+          For more info
         </Heading>
         <List>
           <ListItem>
@@ -163,23 +179,11 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<Icon as={IoPaperPlaneSharp} />}
               >
-                @soffwolf 
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/soffwolf" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<Icon as={IoLogoInstagram} />}
-              >
                 @soffwolf
               </Button>
             </Link>
           </ListItem>
         </List>
-
       </Section>
     </Container>
   </Layout>

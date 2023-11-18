@@ -11,33 +11,33 @@ import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="Racklet">
+  <Layout title="Forensic Search">
     <Container>
       <Title>
-        Racklet <Badge>Jan 2020 - June 2021</Badge> <Badge>@Aalto Uni.</Badge>
+        Forensic Search <Badge>May 2022 - November 2022</Badge> <Badge>@Mirasys Oy</Badge>
       </Title>
       <P>
-        Open Source scale model of Data Centers using commodity compute like Raspberry Pis.<br/>
-		This is a research project in my first and second bachelor year
-    . My role was to create a friendly UI for the end-user
-		and benchmark the various aspect of Raspberry Pi 3 and 4. I learnt a lot about cloud native technologies 
-    via this project.
+        Search and Find Human/Vehicle by Characteristics <br />
+        • Trained a machine learning model capable of classifying individuals and vehicles
+        based on visual attributes such as clothing color and gender.<br />
+        • Developed an intuitive web interface to facilitate the search process.<br />
       </P>
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://racklet.io">
-            racklet.io{' '}
+          <Link href="https://www.mirasys.com/person-search">
+            mirasys.com/person-search
             <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Begin Web Dev, Cloud Computing, lots of Linux, Networking</span>
+          <span>Reinforcement Learning with PyTorch, FastAPI, ReactJS</span>
         </ListItem>
       </List>
 
-   </Container>
+    </Container>
   </Layout>
 )
 

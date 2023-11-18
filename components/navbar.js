@@ -69,7 +69,7 @@ const Navbar = props => {
           width={{ base: 'full', md: 'auto' }}
           alignItems="center"
           flexGrow={1}
-          mt={{ base: 4, md: 0 }}
+          mt={{ base: 4, md: 2 }}
         >
           <LinkItem href="/works" path={path}>
             Projects
@@ -88,7 +88,7 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right">
+        <Box flex={1} align="right" mt={2}>
           <ThemeToggleButton />
 
           <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>

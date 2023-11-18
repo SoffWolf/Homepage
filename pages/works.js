@@ -3,13 +3,11 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbInkdrop from '../public/images/works/quickread_eyecatch.png'
-import thumbWalknote from '../public/images/works/racklet_eyecatch.png'
-import thumbFourPainters from '../public/images/works/therapist_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/sac_eyecatch.jpg'
-import thumbModeTokyo from '../public/images/works/oldsite_eyecatch.jpg'
-import thumbStyly from '../public/images/works/sisweb_eyecatch.jpg'
-import thumbVsa from '../public/images/works/vsa_eyecatch.jpg'
+import thumbQuickRead from '../public/images/works/quickread_eyecatch.png'
+import thumbRacklet from '../public/images/works/racklet_eyecatch.png'
+import thumbSpotterWeb from '../public/images/works/spotterweb_eyecatch.png'
+import thumbSpotterAdmin from '../public/images/works/spotteradmin_eyecatch.png'
+import thumbSearch from '../public/images/works/search_eyecatch.png'
 
 const Works = () => (
   <Layout title="Projects">
@@ -19,9 +17,32 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="spotterweb"
+            title="Spotter Web"
+            thumbnail={thumbSpotterWeb}
+          >
+            A media-intensive web client for video management systems.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="spotteradmin" thumbnail={thumbSpotterAdmin} title="Spotter Admin">
+            An access management web platform for large-complex camera systems.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.1}>
+          <WorkGridItem id="search" thumbnail={thumbSearch} title="Forensic Search">
+            Computer Vision System to Search and Find Human/Vehicle by Characteristics.
+          </WorkGridItem>
+        </Section>
+
         <Section>
-          <WorkGridItem id="quickread" title="QuickRead" thumbnail={thumbInkdrop}>
-            A web extension that auto-summaries long text into a few sentences.
+          <WorkGridItem id="quickread" title="QuickRead" thumbnail={thumbQuickRead}>
+            Enhancing summarizing capability of Google&apos;s Pegasus.
           </WorkGridItem>
         </Section>
 
@@ -29,52 +50,15 @@ const Works = () => (
           <WorkGridItem
             id="racklet"
             title="Racklet"
-            thumbnail={thumbWalknote}
+            thumbnail={thumbRacklet}
           >
             Open source scale-model of Data Centers using commodity compute like Raspberry Pis.
           </WorkGridItem>
         </Section>
-
-        <Section delay={0.1}>
-          <WorkGridItem
-            id="therapist"
-            title="Therapist chatbot"
-            thumbnail={thumbFourPainters}
-          >
-            A chatbot that you can share happiness and sorrow with.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.1}>
-          <WorkGridItem id="sac" thumbnail={thumbMenkiki} title="SAC algorithm implementation in PyTorch">
-            My implementation of the state-of-the-art reinforcement learning paper.
-          </WorkGridItem>
-        </Section>
+        
       </SimpleGrid>
 
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-          Websites I made
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="oldsite"
-            thumbnail={thumbModeTokyo}
-            title="My old portfolio site"
-          >
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="sisweb" thumbnail={thumbStyly} title="Website for my sister">
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-		<Section delay={0.2}>
+		{/* <Section delay={0.2}>
         <Divider my={6} />
 
         <Heading as="h3" fontSize={20} mb={4}>
@@ -94,7 +78,7 @@ const Works = () => (
         </Section>
         <Section delay={0.3}>
         </Section>
-      </SimpleGrid>
+      </SimpleGrid> */}
 
 
     </Container>
