@@ -136,7 +136,7 @@ const Home = () => (
         </NextLink>
       </Box>
       <Box align="center" my={4}>
-        <NextLink href="https://drive.google.com/file/d/1GHtOkDL4sWAY9hFofcYJg8Xx88lSnim-/view?usp=sharing">
+        <NextLink href="https://drive.google.com/file/d/1XaM7H5Nw7SbD5D3eMgMm8pbGIfEejriI/view?usp=sharing">
           <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
             My résumé
           </Button>

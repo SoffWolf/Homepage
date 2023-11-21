@@ -19,7 +19,7 @@ const Work = () => (
       <P>
         A robust web application that can handle media-heavy load from multiple live video streams. <br/>
         • The front-end of the application was written in ReactJS. <br/>
-        • The back-end of the application comprises of multiple microservices written in NextJS and .NET.
+        • The back-end of the application comprises of multiple microservices written in NestJS and .NET.
         We deployed everything to Azure Cloud Service, with Docker and Kubernetes.
       </P>
 
